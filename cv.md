@@ -39,8 +39,9 @@ if (str === str.split('').reverse().join('')) {
 * Belarusian State University of Transport
    * Automatics telemechanics and communications on the railway
 * HTML/CSS
+* git/GitHub
 * JavaScript (in process…)
 
-## English:  
-
-A1.
+## Languages:  
+* English - A1.
+* Russian - native speaker.
