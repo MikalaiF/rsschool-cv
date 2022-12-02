@@ -3,7 +3,7 @@
 ## My contacts:  
 
 * **Phone:** +375336889676
-* **Email:** [filmikalai@gmail.com](filmikalai@gmail.com)
+* **Email:** filmikalai@gmail.com
 * **Telegram:** [Mikalai Filipau](https://t.me/Persikk9)
 * **GitHub:** [Mikalai Filipau](https://github.com/MikalaiF)
 * **Discord:** Filippov_Mikalai#8340
