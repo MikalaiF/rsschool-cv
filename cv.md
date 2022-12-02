@@ -15,10 +15,10 @@
 
 
 ## My Skills:
-* HTML5
-* CSS
 * Markdown 
-* git
+* HTML/CSS
+* git/GitHub
+* JavaScript (in process…)
 
 ## Code example:  
 
@@ -38,9 +38,7 @@ if (str === str.split('').reverse().join('')) {
 
 * Belarusian State University of Transport
    * Automatics telemechanics and communications on the railway
-* HTML/CSS
-* git/GitHub
-* JavaScript (in process…)
+
 
 ## Languages:  
 * English - A1.
