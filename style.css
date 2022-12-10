@@ -141,11 +141,11 @@ body {
 }
 
 .about_list_item:nth-child(1):before {
-   content: url(/assets/icon/flag_en.png);
+   content: url(./assets/icon/flag_en.png);
 }
 
 .about_list_item:nth-child(2)::before {
-   content: url(/assets/icon/flag_ru.png);
+   content: url(./assets/icon/flag_ru.png);
 }
 
 .project_conteiner {
