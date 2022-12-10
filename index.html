@@ -5,36 +5,70 @@
    <meta charset="utf-8">
 
    <title>CV</title>
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="./style.css">
    <link rel="icon" href="assets/icon/icon 32.png">
    <link rel="icon" href="assets/icon/icon 16.png">
 
 </head>
 
 <body>
-   <header class="header">
-      <div class="conteiner_header">
-
-
-         <img class="header_img" src="assets/img/my_photo.jpg" alt="my photo">
-
-
-         <div class="header_info">
-            <nav>
-               <ul class="header_list">
-                  <li class="header_list_item"><a href="#about">About me</a></li>
-                  <li class="header_list_item"><a href="#code">Code</a></li>
-                  <li class="header_list_item"><a href="#skill">Skills</a></li>
-                  <li class="header_list_item"><a href="#educ">Education</a></li>
-                  <li class="header_list_item"><a href="#contacts">Contacts</a></li>
-               </ul>
-            </nav>
-            <div class="header_me">
-               <h1>Filipau Mikalai</h1>
+   <div class="conteiner">
+      <header class="header">
+         <div class="conteiner_header">
+            <img class="header_img" src="assets/img/my_photo.jpg" alt="my photo">
+            <div class="header_info">
+               <nav>
+                  <ul class="header_list">
+                     <li class="header_list_item"><a href="#about">About me</a></li>
+                     <li class="header_list_item"><a href="#code">Code</a></li>
+                     <li class="header_list_item"><a href="#project">Project</a></li>
+                     <li class="header_list_item"><a href="#skill">Skills</a></li>
+                     <li class="header_list_item"><a href="#educ">Education</a></li>
+                     <li class="header_list_item"><a href="#contacts">Contacts</a></li>
+                  </ul>
+               </nav>
+               <div class="header_me">
+                  <h1>Filipau Mikalai</h1>
+               </div>
             </div>
          </div>
+      </header>
+      <div class="conteiner_main">
+         <main class="main">
+            <section class="main_about" id="about">
+               <h2>About me</h2>
+               <p>&ensp;&ensp; Hi, I'm 28. I work in Minsk subway as an electrician. I graduated from BelGUT in 2016.
+                  For many years
+                  I dreamed and tried to find myself, and always found silly excuses for my failures. Now I have pulled
+                  myself together, full of energy and ready to learn. My family fully supports me and is willing to
+                  sacrifice family time for our future success. I found RS School and want to be a part of such a great
+                  family!</p>
+            </section>
+            <section class="main_code" id="code">
+               <h2>Code example</h2>
+               <p><code>
+let str = 'шалаш';<br>
+if (str === str.split('').reverse().join('')) {<br>
+   console.log(true);<br>
+} else {<br>
+   console.log(false);<br>
+};
+               </code></p>
+            </section>
+            <section class="main_project" id="project">
+               <h2>My project</h2>
+            </section>
+         </main>
+         <aside class="aside">
+            <section class="aside_skill" id="skill">
+               <h2>Skills</h2>
+            </section>
+            <section class="aside_educ" id="educ">
+               <h2>Education</h2>
+            </section>
+         </aside>
       </div>
-   </header>
+   </div>
 
 </body>
 
