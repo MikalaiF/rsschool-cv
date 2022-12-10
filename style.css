@@ -6,17 +6,18 @@
 
 body {
    font-size: medium;
-   font-family: 'Times New Roman', Times, serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
    background-color: #1e0f0f;
 }
 
-
+.conteiner {
+   width: 90%;
+   margin: 0 auto;
+   margin-top: 5px;
+}
 
 .header {
    border: 1px solid #de3c3c;
-   margin: 0 auto;
-   width: 90%;
-   margin-top: 5px;
 }
 
 .conteiner_header {
@@ -24,8 +25,6 @@ body {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-
-
 }
 
 .header_info {
@@ -33,25 +32,23 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-
 }
-
 
 .header_list {
    display: flex;
    list-style: none;
    justify-content: space-evenly;
-   background-color: #72c9ff;
-
+   background-color: #1583a5;
 }
 
 .header_list_item {
-   padding: 20px;
+   padding: 10px;
    text-transform: uppercase;
-
 }
 
 .header_list_item a {
+   position: relative;
+   padding: 3px;
    text-decoration: none;
    color: #1e0f0f;
 }
@@ -60,22 +57,84 @@ body {
    text-decoration: none;
 }
 
-.header_list_item a:hover {
-   text-decoration: underline;
-   transition: .5s
+.header_list_item :hover {
+   border: 2px solid #b32b2b;
+   border-radius: 5px 5px 10px 10px;
+   font-size: 120%;
+   font-weight: 600;
+   transition: .1s;
+   color: #2f2d2d;
 }
 
 .header_img {
-   width: 21%;
-
-
-
+   width: 25%;
 }
 
 .header_me {
    text-align: right;
    padding: 4%;
    margin-top: 10px;
-   background-color: #7b02b3;
+   background-color: #b32b2b;
+}
 
+.header_me h1::after {
+   content: "";
+   position: absolute;
+   left: 53%;
+   bottom: 0;
+   width: 50%;
+   height: 4px;
+   background-color: #1583a5;
+}
+
+.header_me h1 {
+   position: relative;
+   font-size: 36px;
+}
+
+/* ---------End header--------- */
+
+.conteiner_main {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   background-color: aliceblue;
+}
+
+.main {
+   border: 1px solid #00304f;
+   width: 75%;
+}
+
+.main_about {
+   border: 1px solid #119cf9;
+
+}
+
+.main h2 {
+   text-align: right;
+   padding-right: 5%;
+   background-color: #119cf9;
+}
+
+.main_about p {
+   font-size: 18px;
+   line-height: 1.3;
+   text-align: justify;
+   padding: 5px;
+   margin: 5px;
+}
+
+.main_code p {
+   font-size: 18px;
+   line-height: 1.3;
+   text-align: left;
+   padding: 25px;
+   margin: 25px;
+   background-color: #d1cfcf;
+}
+
+.aside {
+   border: 1px solid #8cff72;
+   width: 25%;
 }
