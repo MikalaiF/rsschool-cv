@@ -209,6 +209,10 @@ body {
    align-items: center;
 }
 
-.footer_content_item img {
-   height: 150px;
+.logo_rs {
+   height: 50px;
+}
+
+.gh_img {
+   height: 100px;
 }
