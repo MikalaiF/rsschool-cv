@@ -9,4 +9,145 @@
    <link rel="icon" href="./assets/icon/icon16.png">
 </head>
 
+<body>
+   <header class="header">
+      <div class="conteiner">
+         <div class="conteiner_header">
+            <img class="header_img" src="assets/img/my_photo.jpg" alt="my photo">
+            <div class="header_info">
+               <nav>
+                  <ul class="header_list">
+                     <li class="header_list_item"><a class="link" href="#about">About me</a></li>
+                     <li class="header_list_item"><a class="link" href="#code">Code</a></li>
+                     <li class="header_list_item"><a class="link" href="#project">Project</a></li>
+                     <li class="header_list_item"><a class="link" href="#skill">Skills</a></li>
+                     <li class="header_list_item"><a class="link" href="#educ">Education</a></li>
+                     <li class="header_list_item"><a class="link" href="#contacts">Contacts</a></li>
+                  </ul>
+               </nav>
+               <div class="header_me">
+                  <h1>Filipau Mikalai</h1>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="c_main">
+      <div class="conteiner">
+         <div class="conteiner_main">
+            <main class="main">
+               <section class="main_about" id="about">
+                  <h2 class="right"><img src="./assets/icon/profile.png" alt="icon_profile"> About me</h2>
+                  <p>&ensp;&ensp; Hi! I'm a happy RS student!
+                     Passed the stage-0 with success! I got the cherished certificate, which means a lot to me, it's the
+                     document which gives me the incentive to work, it's living proof that you can learn anything. Yes,
+                     it's just a preparatory course, but it was very exciting and a bit complicated, and I passed it! So
+                     it's going to be the same in the future, with all the challenges I can handle!
+                     I'm almost 29 years old and I want to get into IT! I sincerely believe in RS school, that it helps
+                     me and I will help it later!</p>
+
+                  <h3>Languages</h3>
+                  <ul class="about_list">
+                     <li class="about_list_item"> English - A2.</li>
+                     <li class="about_list_item"> Russian - native speaker.</li>
+                  </ul>
+               </section>
+               <section class="main_code" id="code">
+                  <h2 class="right"><img src="./assets/icon/code.png" alt="icon_profile"> Code example</h2>
+                  <p><code>
+                     const whatTimeIsIt = (angle) => {<br>
+                        let hour = Math.floor(angle / 30) || 12;<br>
+                        let min = Math.floor((angle % 30) * 2);<br>
+                        hour = String(hour).padStart(2, '0');<br>
+                        min = String(min).padStart(2, '0');<br>
+                        return `${hour}:${min}`;<br>
+                    };
+                  </code></p>
+               </section>
+               <section class="main_project" id="project">
+                  <h2 class="right"><img src="./assets/icon/project.png" alt="icon_project"> My project</h2>
+                  <div class="project_conteiner">
+
+                     <div class="cv">
+                        <a class="link" href="https://mikalaif.github.io/rsschool-cv/" target="_blank">
+                        </a>
+                     </div>
+                     <div class="plants">
+                        <a class="link" href="https://mikalaif.github.io/plants-rs/" target="_blank">
+                        </a>
+                     </div>
+                     <div class="momentum">
+                        <a class="link" href="https://mikalaif.github.io/momentum-rs/" target="_blank">
+                        </a>
+                     </div>
+                  </div>
+               </section>
+            </main>
+            <aside class="aside">
+               <section class="aside_skill" id="skill">
+                  <h2><img src="./assets/icon/skill.png" alt="icon_skills"> Skills</h2>
+                  <div class="skill_info">
+                     <ul class="skill_list">
+                        <li class="skill_list_item"><img src="./assets/icon/markdown.png" alt="icon_markdown"> Markdown
+                        </li>
+                        <li class="skill_list_item"><img src="./assets/icon/html.png" alt="icon_html"> HTML</li>
+                        <li class="skill_list_item"><img src="./assets/icon/css3.png" alt="icon_css"> CSS</li>
+                        <li class="skill_list_item"><img src="./assets/icon/github.png" alt="icon_gitHub"> GitHub</li>
+                        <li class="skill_list_item"><img src="./assets/icon/git.png" alt="icon_git"> git</li>
+                        <li class="skill_list_item"><img src="./assets/icon/javascript.png" alt="icon_js"> JavaScript
+                           (in
+                           process…)
+                        </li>
+                     </ul>
+                  </div>
+               </section>
+               <section class="aside_educ" id="educ">
+                  <h2><img src="./assets/icon/education.png" alt="icon_education"> Education</h2>
+                  <ul class="educ_list">
+                     <li class="educ_list_item"> Belarusian State University of Transport
+                        <ul class="educ_list">
+                           <li class="educ_list_item"> Automatics telemechanics and communications on the railway</li>
+                        </ul>
+                     </li>
+                     <li class="educ_list_item">JS/FE Pre-School 2022Q4</li>
+                  </ul>
+               </section>
+            </aside>
+         </div>
+      </div>
+   </div>
+   <footer class="footer">
+      <div class="conteiner">
+         <div class="conteiner_footer">
+            <section class="contacts" id="contacts">
+               <h2><img src="./assets/icon/contact.png" alt="icon_skills"> My contacts</h2>
+               <ul class="footer_list">
+                  <li class="footer_list_item"><a class="link" href="tel:+375336889676" target="_blank">Phone</a></li>
+                  <li class="footer_list_item"><a class="link" href="mailto:filmikalai@gmail.com"
+                        target="_blank">Email</a></li>
+                  <li class="footer_list_item"><a class="link" href="https://t.me/Persikk9" target="_blank">Telegram</a>
+                  </li>
+                  <li class="footer_list_item"><a class="link" href="https://discordapp.com/users/1019274116920004638"
+                        target="_blank">Discord</a>
+                  </li>
+               </ul>
+            </section>
+            <div class="footer_content">
+               <div class="footer_content_item">
+                  <a class="link" href="https://github.com/MikalaiF" target="_blank"><img class="gh_img"
+                        src="./assets/icon/github.gif" alt="my_gitHub"></a>
+               </div>
+               <div class="footer_content_item">
+                  <a href="https://rs.school/js/" target="_blank"><img class="logo_rs"
+                        src="./assets/img/rs_school_js.svg" alt="logo_RS_School"></a>
+               </div>
+               <div class="footer_content_item">
+                  <p></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+
 </html>
