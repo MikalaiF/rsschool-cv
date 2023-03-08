@@ -154,13 +154,13 @@ body {
 }
 
 .plants {
-   background: url(/assets/img/project.png)no-repeat;
+   background: url('assets/img/project.png')no-repeat;
    width: 65px;
    height: 65px;
 }
 
 .momentum {
-   background: url(/assets/img/project.png)no-repeat;
+   background: url('assets/img/project.png')no-repeat;
    width: 65px;
    height: 65px;
 }
@@ -246,7 +246,7 @@ body {
 }
 
 .footer_content_item p {
-   background: url('/assets/img/year.png');
+   background: url('assets/img/year.png');
    width: 64px;
    height: 64px;
 }
