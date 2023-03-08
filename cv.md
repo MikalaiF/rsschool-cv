@@ -34,3 +34,13 @@ const whatTimeIsIt = (angle) => {
 };
 
 ```
+
+## Education:  
+
+* Belarusian State University of Transport
+   * Automatics telemechanics and communications on the railway
+* JS/FE Pre-School 2022Q4
+
+## Languages:  
+* English - A2.
+* Russian - native speaker.
